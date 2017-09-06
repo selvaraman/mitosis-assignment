@@ -1,0 +1,20 @@
+
+<p>
+  <strong>Name:</strong>
+  <%= current_user.name %>
+</p>
+ 
+<p>
+  <strong>Gender:</strong>
+  <%= current_user.gender %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= current_user.address %>
+</p>
+ 
+<p>
+  <strong>Image</strong> <br />
+  <%= image_tag(current_user.profile_path) %>
+</p>
